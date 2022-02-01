@@ -3,7 +3,7 @@
 Author: Cameron Zuziak  
 Date: 1/31/2022  
 
-<h5>Description:</h5>
+<h4>Description:</h4>
 Dockerized flask app served by gunicorn and nginx, for Ubuntu 20.04
 This repo has 2 docker containers, one is a flask app served with gunicorn, 
 the other is an nginx container that serves as a proxy. 
@@ -11,8 +11,9 @@ The flask will also install mysqlclient.
 If you do not wish to use MySQL, you can edit the flaskapp/Dockerfile to suit your needs.
 
 
-<h5>Instructions:</h5>
+<h4>Instructions:</h4>
 Instructions below assume you have set up an Ubuntu 20.04 instance   
+
 1. Update your instance:  
     >sudo apt-get update
 
