@@ -20,11 +20,11 @@ Instructions below assume you have set up an Ubuntu 20.04 server</br>
     > sudo apt-get install docker-compose
 
 3. Clone this repopsitory:</br>
-    git clone https://github.com/cameronzuziak/WebAppTemplate.git
+    >git clone https://github.com/cameronzuziak/WebAppTemplate.git
 
 4. CD into the cloned directory and open the docker-compose.yml file in either vim or nano: </br>
     >cd WebAppTemplate/
-    >>nano docker-compose.yml
+    >nano docker-compose.yml
 
 5. Change the enviroment variable SERVER_NAME from 0.0.0.0 to the public IPv4 of your instance. then save and exit.
 
@@ -33,7 +33,7 @@ Instructions below assume you have set up an Ubuntu 20.04 server</br>
 
 7. Build your containers and run them, a few ways to do this.
     >sudo docker-compose build</br>
-    >>sudo docker-compose up</br>
+    >sudo docker-compose up</br>
 
   or combine the 2 commands with the build arg: </br>
     >sudo docker-compose up --build
